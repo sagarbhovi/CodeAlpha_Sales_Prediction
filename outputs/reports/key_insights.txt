@@ -1,0 +1,31 @@
+SALES PREDICTION - KEY INSIGHTS
+==================================================
+
+Total cleaned records: 200
+Average sales: 14.02
+Minimum sales: 1.60
+Maximum sales: 27.00
+
+CORRELATION WITH SALES
+----------------------------------------
+TV: 0.7822
+Radio: 0.5762
+Newspaper: 0.2283
+
+Strongest correlated feature: TV
+Correlation value: 0.7822
+
+BEST MODEL
+----------------------------------------
+Model: Gradient Boosting
+MAE: 0.5584
+RMSE: 0.6916
+R2: 0.9848
+R2 percentage: 98.48%
+
+CUSTOM PREDICTION
+----------------------------------------
+TV: 150.0
+Radio: 25.0
+Newspaper: 30.0
+Predicted Sales: 14.9580

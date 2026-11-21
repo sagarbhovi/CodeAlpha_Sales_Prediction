@@ -1,0 +1,5 @@
+Model,Repeated_CV_RMSE,Test_MAE,Test_RMSE,Test_R2,Best_Parameters
+Gradient Boosting,0.8189939878567786,0.5584153876980877,0.6915646632313124,0.9848476796647961,"{'model__subsample': 0.8, 'model__n_estimators': 200, 'model__min_samples_leaf': 2, 'model__max_depth': 2, 'model__learning_rate': 0.1}"
+Random Forest,0.9225403238405167,0.6753884898088021,0.816288446935517,0.9788893864913466,"{'model__n_estimators': 200, 'model__min_samples_split': 2, 'model__min_samples_leaf': 2, 'model__max_features': 1.0, 'model__max_depth': 12}"
+Decision Tree,1.3065399201513153,1.1087500000000001,1.5719304303237398,0.92171470405591,"{'model__min_samples_split': 2, 'model__min_samples_leaf': 2, 'model__max_depth': 10}"
+Linear Regression,1.6668994863564481,1.4607567168117601,1.781599661533451,0.8994380241009119,{'model__fit_intercept': True}
